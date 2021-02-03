@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
   </head>
 
   <body>
@@ -37,7 +38,7 @@
         <input type="number" name="age" id="number" placeholder="Please Enter Youe Age " min="18" max="90">
 
 
-          <label for="dropdown">Chose somone</label>
+          <label for="dropdown" id="dropdown-list">Chose someone</label>
           <select name="dropdown" id="dropdown" required>
           <option value="Nadir">Nadir</option>
           <option value="Novel">Novel</option>
@@ -45,27 +46,27 @@
         </select>
 
 
-        <p>What is your prefered language :</p>
-        <label for="Javascript">Javascript</label>
+        <p class="subtitle">What is your prefered language :</p>
+        <label for="Javascript" id="js">Javascript</label>
         <input type="radio" id="Javascript" name="lang-pref" value="Javascript">
 
-        <label for="Css">Css</label>
+        <label for="Css" id="cs">Css</label>
         <input type="radio" name="lang-pref" id="css" value="css">
 
-        <label for="html">HTML</label>
+        <label for="html" id="h5">HTML</label>
         <input type="radio" name="lang-pref" id="html" value="html">
 
-        <p>What is your preferred side of programming :</p>
+        <p class="subtitle">What is your preferred side of programming :</p>
         <input type="checkbox" name="option1" id="option1"  value="front-end">
-        <label for="option1">Front-end</label>
+        <label for="option1" id="opt1">Front-end</label>
 
         <input type="checkbox" name="option2" id="option2" value="back-end">
-        <label for="option2">back-end</label>
+        <label for="option2" id="opt2">back-end</label>
 
         <input type="checkbox" name="option3" id="option3" value="full-stack">
-        <label for="option3">Full-stack</label><br>
+        <label for="option3" id="opt3">Full-stack</label><br>
 
-        <label for="additional-comment">Additional Comment</label>
+        <label for="additional-comment" id="add-comment">Additional Comment :</label>
         <textarea name="additional-comment" id="additional-comment" cols="30" rows="5"></textarea>
         <button type="submit" id="submit" form="form" value="submit">Submit</button>
       </form>

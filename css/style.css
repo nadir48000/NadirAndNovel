@@ -1,0 +1,67 @@
+* {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #023e8a ;
+    color: white;
+    margin-bottom: 1rem;
+    
+}
+
+
+#title {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+#description {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.699);
+    padding-bottom: 1.8rem;
+}
+
+#survey-form {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#name-label,#email-label,#number-label,#dropdown-list,.subtitle,#add-comment {
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+#name,#email,#number,#dropdown,#additional-comment{
+    font-family: sans-serif;
+    padding: 0.5rem;
+    border: 0.2rem solid #00b4d8;
+    border-radius: 0.5rem;
+    color: #00b4d8;
+}
+
+#js,#cs,#h5,#opt1,#opt2,#opt3 {
+    font-family: sans-serif;
+    padding: 0.5rem;
+    color: #90e0ef;
+}
+
+#submit {
+    font-family: sans-serif;
+    width: 30%;
+    margin: 0 auto;
+    color: #00b4d8;
+    border: 0.2rem solid #00b4d8;
+    background-color: #03045e;
+}
+
+#submit:hover {
+    font-family: sans-serif;
+    width: 30%;
+    margin: 0 auto;
+    color: #00b4d8;
+    border: 0.2rem solid #00b4d8;
+    background-color: #0407be;
+}
