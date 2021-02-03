@@ -21,6 +21,28 @@
     - The freeCodeCamp Team
 
     -->
+
+
+    <header>
+      <h1 id="title">Novel And Nadir Survey Form</h1>
+      <p id="description">This is a survey form created for microverse trail</p>
+    </header>
+    <section>
+      <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        <label for="age" id="number-label">Age (optional)</label>
+        <input type="number" name="age" id="age" placeholder="Please Enter Youe Age " min="18" max="90">
+        <input list="dropdown">
+        <datalist id="dropdown">
+          <option value="Nadir"></option>
+          <option value="Novel"></option>
+          <option value="Microverse"></option>
+        </datalist>
+      </form>
+    </section>
     <script  src="js/index.js"></script>
   </body>
 </html>
