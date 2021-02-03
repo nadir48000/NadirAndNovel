@@ -34,13 +34,40 @@
         <label for="email" id="email-label">Email</label>
         <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
         <label for="age" id="number-label">Age (optional)</label>
-        <input type="number" name="age" id="age" placeholder="Please Enter Youe Age " min="18" max="90">
-        <input list="dropdown">
-        <datalist id="dropdown">
-          <option value="Nadir"></option>
-          <option value="Novel"></option>
-          <option value="Microverse"></option>
-        </datalist>
+        <input type="number" name="age" id="number" placeholder="Please Enter Youe Age " min="18" max="90">
+
+
+          <label for="dropdown">Chose somone</label>
+          <select name="dropdown" id="dropdown" required>
+          <option value="Nadir">Nadir</option>
+          <option value="Novel">Novel</option>
+          <option value="Microverse">Microverse</option>
+        </select>
+
+
+        <p>What is your prefered language :</p>
+        <label for="Javascript">Javascript</label>
+        <input type="radio" id="Javascript" name="lang-pref" value="Javascript">
+
+        <label for="Css">Css</label>
+        <input type="radio" name="lang-pref" id="css" value="css">
+
+        <label for="html">HTML</label>
+        <input type="radio" name="lang-pref" id="html" value="html">
+
+        <p>What is your preferred side of programming :</p>
+        <input type="checkbox" name="option1" id="option1"  value="front-end">
+        <label for="option1">Front-end</label>
+
+        <input type="checkbox" name="option2" id="option2" value="back-end">
+        <label for="option2">back-end</label>
+
+        <input type="checkbox" name="option3" id="option3" value="full-stack">
+        <label for="option3">Full-stack</label><br>
+
+        <label for="additional-comment">Additional Comment</label>
+        <textarea name="additional-comment" id="additional-comment" cols="30" rows="5"></textarea>
+        <button type="submit" id="submit" form="form" value="submit">Submit</button>
       </form>
     </section>
     <script  src="js/index.js"></script>
